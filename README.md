@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-Yeh ek Laravel-based SaaS backend hai jisme har user apni multiple companies create, update, delete kar sakta hai aur unmein switch kar sakta hai. Har kaam current active company ke under hota hai.
+This is a Laravel-based SaaS backend where each user can create, update, and delete multiple companies and switch between them. All operations are performed under the scope of the currently active company.
 
 ---
 
@@ -18,11 +18,11 @@ Yeh ek Laravel-based SaaS backend hai jisme har user apni multiple companies cre
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
+git clone https://github.com/akashkaugithub/multi-tenant-saas
 cd multi-tenant-saas
 composer install
 cp .env.example .env
 php artisan key:generate
-# .env file mein DB settings set karo
+
 php artisan migrate
 php artisan serve
